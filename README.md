@@ -10,7 +10,7 @@ This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vi
 
 - `water_system_summary_active.csv` includes information on active water systems across the United States, counties served, category of water system and number of violations to the Safe Drinking Water Act from 1991 to 2019.
 
-- `data_dictionary.csv`
+- `data_dictionary.csv` includes definition of all variables in the `lead_acs_data_2012_2019.csv` and `water_system_summary_active.csv` files. 
 
 ## Attribution and License
 
