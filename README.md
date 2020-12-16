@@ -4,9 +4,9 @@ The Rockefeller Foundation is releasing a series of datasets of lead in tap wate
 
 This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vizhome/IllustrativeLeadDashExtracted/DataWithThumbnail) tracking the lead tests results at the county and Public Water System levels which is also available for the public.
 
-<center>
-![Lead_dashboard in Tableau](https://github.com/datasciencerf/lead_water_acs_data/blob/main/lead_dashboard.gif)
-</center>
+<p align="center">
+  <img src="https://github.com/datasciencerf/lead_water_acs_data/blob/main/lead_dashboard.gif" />
+</p>
 
 ## Datasets
 
