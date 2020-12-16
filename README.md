@@ -7,6 +7,7 @@ This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vi
 <center>
 ![Lead_dashboard in Tableau](https://github.com/datasciencerf/lead_water_acs_data/blob/main/lead_dashboard.gif)
 </center>
+
 ## Datasets
 
 - `lead_acs_data_2012_2019.csv` contains lead tests at the public water system level from 2012 through 2019. The column `area_served` indicates the county the water system serves. The dataset also includes county-level socioeconomic data from the American Community Survey (ACS). The ACS data comes from the [2014 - 2018 ACS 5-year estimates](https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2018/5-year.html).  
