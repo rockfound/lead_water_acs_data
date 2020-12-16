@@ -4,8 +4,6 @@ The Rockefeller Foundation is releasing a series of datasets of lead in tap wate
 
 This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vizhome/IllustrativeLeadDashExtracted/DataWithThumbnail) tracking the lead tests results at the county and Public Water System levels which is also available for the public.
 
-
-
 ## Datasets
 
 - `lead_acs_data_2012_2019.csv` contains lead tests at the public water system level from 2012 through 2019. The column `area_served` indicates the county the water system serves. The dataset also includes county-level socioeconomic data from the American Community Survey (ACS). The ACS data comes from the [2014 - 2018 ACS 5-year estimates](https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2018/5-year.html).  
@@ -16,12 +14,16 @@ This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vi
 
 ## Attribution and License
 
+The datasets in this repository are publicly available for noncommerical purposes including use by academics, nonprofits and the general public.
+
+Using this data requires attribution to "The Rockefeller Foundation" in any publication or report. We are currently using Creative Commons Attribution-NonCommercial 4.0 International license. You can read the terms in the [LICENSE](https://github.com/datasciencerf/lead_water_acs_data/blob/main/LICENSE).
+
 
 ## Contact Us
 
-If you have questions about the data or licensing conditions, please contact us at
+If you have questions about the data or licensing conditions, please contact us
 
 ## Contributors
 
-Sue Marquez -- Data Science Manager
-Michelle Leonard -- Data and Visualization specialist
+Sue Marquez, Data Science Manager\
+Michelle Leonard, Data Visualization consultant
