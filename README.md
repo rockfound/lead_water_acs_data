@@ -25,7 +25,7 @@ Using this data requires attribution to "The Rockefeller Foundation" in any publ
 
 ## Contact Us
 
-If you have questions about the data or licensing conditions, please contact us
+If you have questions about the data or licensing conditions, please contact us Lead-Data@rockfound.org
 
 ## Contributors
 
