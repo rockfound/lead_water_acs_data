@@ -12,7 +12,6 @@ This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vi
 
 - `lead_acs_data_2012_2019.csv` contains lead tests at the public water system level from 2012 through 2019. The column `area_served` indicates the county the water system serves. The dataset also includes county-level socioeconomic data from the American Community Survey (ACS). The ACS data comes from the [2014 - 2018 ACS 5-year estimates](https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2018/5-year.html).  
 
-<<<<<<< HEAD
 - `water_system_summary_active.csv` includes information on active water systems across the United States, counties served, category of water system and number of violations to the Safe Drinking Water Act from 1991 to 2019.
 
 - `data_dictionary.csv` includes definition of all variables in the `lead_acs_data_2012_2019.csv` and `water_system_summary_active.csv` files.
@@ -76,19 +75,15 @@ The [SDWIS search tool](https://ofmpub.epa.gov/apex/sfdw/f?p=108:35:::::P35_REPO
 
 In order to download all available samples, you need to select `Lead Samples` under the `Water System` section and remove all the dates in the sampling start and end dates and leave all the options as they are. As of 2020 (third quarter) there were 698,891 rows of data dating back to the 1990s.
 
-You can also select the columns you need to display and download on the top right options.
-
-<INSERT IMAGE>
+You can also select the columns you need to display. Once the data is visible, there is a `Select Column` tab.
 
 *Benefits*: Easy to search and filter data. Unlike the API you can download 150K rows of data at a time and it includes historical data from 1990s.
 
 *Limitations*: The tool is often slow to load data and it not often intuitive what the columns mean. Th process cannot be as easily automated for data retrieval compared to the API.
 
-
->>>>>>> fe34fa7... Adding the second version of lead and acs data
 ## Attribution and License
 
-The datasets in this repository are publicly available for noncommerical purposes including use by academics, nonprofits and the general public.
+The datasets in this repository are publicly available for non-commercial purposes including use by academics, nonprofits and the general public.
 
 Using this data requires attribution to "The Rockefeller Foundation" in any publication or report. We are currently using Creative Commons Attribution-NonCommercial 4.0 International license. You can read the terms in the [LICENSE](https://github.com/datasciencerf/lead_water_acs_data/blob/main/LICENSE).
 
