@@ -10,13 +10,8 @@ This data powers our [dashboard](https://public.tableau.com/profile/rf.data#!/vi
 
 ## Datasets
 
-- `lead_acs_data_2012_2019.csv` contains lead tests at the public water system level from 2012 through 2019. The column `area_served` indicates the county the water system serves. The dataset also includes county-level socioeconomic data from the American Community Survey (ACS). The ACS data comes from the [2014 - 2018 ACS 5-year estimates](https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2018/5-year.html).  
+### Raw data
 
-- `water_system_summary_active.csv` includes information on active water systems across the United States, counties served, category of water system and number of violations to the Safe Drinking Water Act from 1991 to 2019.
-
-- `data_dictionary.csv` includes definition of all variables in the `lead_acs_data_2012_2019.csv` and `water_system_summary_active.csv` files.
-
-=======
 The `data` folder contains the raw downloads from EPA SDWIS including lead samples at the 90th percentile, public water system geographic coverage and the violations to the Lead and Copper Rule (prior to the 2020 revisions).
 
 The files `lead_samples-X.csv` contain the lead test samples at the 90th percentile level reported by water systems. Because SDWIS only allows 150K rows at the time, we had to query the system several times to obtain data going back the early 1990s.
@@ -75,11 +70,14 @@ The [SDWIS search tool](https://ofmpub.epa.gov/apex/sfdw/f?p=108:35:::::P35_REPO
 
 In order to download all available samples, you need to select `Lead Samples` under the `Water System` section and remove all the dates in the sampling start and end dates and leave all the options as they are. As of 2020 (third quarter) there were 698,891 rows of data dating back to the 1990s.
 
-You can also select the columns you need to display. Once the data is visible, there is a `Select Column` tab.
+You can also select the columns you need to display and download on the top right options.
+
+<INSERT IMAGE>
 
 *Benefits*: Easy to search and filter data. Unlike the API you can download 150K rows of data at a time and it includes historical data from 1990s.
 
 *Limitations*: The tool is often slow to load data and it not often intuitive what the columns mean. Th process cannot be as easily automated for data retrieval compared to the API.
+
 
 ## Attribution and License
 
